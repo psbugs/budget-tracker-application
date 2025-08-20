@@ -1,4 +1,4 @@
-# 💰 Penny-Wise Budget Tracker
+#  Budget Tracker Web Application
 
 A **user-friendly and responsive** budget tracking application built with **React.js** and **TypeScript**.  
 This app empowers users to efficiently manage their finances with a clean UI, real-time updates, and comprehensive insights into spending habits.
@@ -34,29 +34,6 @@ The goal of this application is to enable users to:
 - **Transaction History**  
   Access and filter previous records to understand where your money goes.  
 
-
----
-
-## 🖥️ Example
-
-### Mini Budget Planner (Logged in as John Doe)
-
-- **[ + Add transaction ]**  
-
-**Summary**  
-- Income: **$1000**  
-  - [+] Salary → **$1000**  
-
-- Expenses: **$200**  
-  - [-] Rent → **$100**  
-  - [-] Groceries → **$50**  
-  - [-] Coffee → **$5**  
-
-**Balance:** **$800**
-
-**Breakdown:** (Pie chart visualization)
-
----
 
 ## 🛠️ Tech Stack
 
@@ -106,26 +83,28 @@ src/
 
 ![Penny-Wise Budget Tracker Screenshot](./public/assets/main-app.png)
 
+![Penny-Wise Budget Tracker Categgory Form](./public/assets/category.png)
+
+![Penny-Wise Budget Tracker Transaction Form](./public/assets/transaction-form.png)
+
+![Penny-Wise Budget Tracker Transaction List](./public/assets/transaction-list.png)
 
 
 ## 📦 Installation & Setup
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/penny-wise-path-91.git
-   cd penny-wise-path-91
+   git clone https://github.com/psbugs/budget-tracker-application.git
+   cd budget-tracker-application
 
+
+Below commands being used to install, start server and build for production.
 
 Install dependencies:
-
 npm install
 
-
 Run the development server:
-
 npm run dev
 
-
 Build for production:
-
 npm run build
