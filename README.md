@@ -38,10 +38,9 @@ The goal of this application is to enable users to:
 ## 🛠️ Tech Stack
 
 - **Frontend**: React.js (with TypeScript)  
-- **Styling**: Tailwind CSS / Custom CSS Modules  
-- **State Management**: React hooks  
-- **Data Storage**: IndexedDB or backend API  
-- **Optional Visualization**: Recharts (Pie Chart)
+- **Styling**: Tailwind CSS / Custom CSS Modules
+- **Local State Management** : React Hooks  
+- **Data Storage**: IndexedDB  
 
 ---
 
@@ -53,12 +52,11 @@ src/
 │ │ ├── BudgetSummary.tsx
 │ │ ├── TransactionForm.tsx
 │ │ └── TransactionList.tsx
+| | └── CategoryForm.tsx
 │ └── common/
 │
 ├── hooks/
-│ ├── use-mobile.tsx
-│ ├── use-toast.ts
-│ └── useBudget.ts
+  └── useBudget.ts
 │
 ├── pages/
 ├── types/

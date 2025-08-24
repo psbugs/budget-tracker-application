@@ -7,6 +7,7 @@ interface BudgetSummaryProps {
 }
 
 export const BudgetSummary = ({ summary }: BudgetSummaryProps) => {
+  // I have assumed the currency supported as $
   const formatCurrency = (amount: number) => {
     return new Intl.NumberFormat('en-US', {
       style: 'currency',

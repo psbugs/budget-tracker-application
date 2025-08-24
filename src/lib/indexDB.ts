@@ -42,7 +42,6 @@ export const getCategoriesDB = async (): Promise<Category[]> => {
 
 export const saveCategoryDB = async (category: Category) => {
     const db = await initDB();
-    console.log('categoy', category)
     await db.put('categories', category);
 };
 

@@ -49,7 +49,6 @@ export default function CategoryForm({ onSubmitComplete }: { onSubmitComplete: (
             {({ isSubmitting }) => (
                 <Form className="p-4 bg-white rounded-2xl shadow-lg w-full max-w-sm">
                     <h3 className="font-bold mb-4 text-lg">Add New Category</h3>
-
                     <div className="mb-3">
                         <Field
                             type="text"
